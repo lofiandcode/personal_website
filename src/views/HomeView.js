@@ -5,8 +5,8 @@ class HomeView extends Component {
 render() {
     return (
         <Fragment>
-            <img src={Photo} alt="head shot of joseph" width='175'/>
-            <h1>Hello World!</h1>
+            <img src={Photo} alt="head shot of joseph" class='profilePicture'/>
+            <h1>Joseph Trettevik</h1>
         </Fragment>
     );
 }
