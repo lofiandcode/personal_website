@@ -6,6 +6,15 @@ import ProjectCard from '../containers/ProjectCard.js'
 
 
 class HomeView extends Component {
+
+projectInfo = { 
+    'biggerFish': {
+        'title': 'Bigger Fish',
+        'stack': 'React.js|JavaScript|Ruby on Rails|Semantic-UI',
+        'description': 'This app using google maps tools to match volunteer delivery drivers with donors that want to donate parishable food.'
+    }
+}
+
 render() {
     return (
         <Fragment>
