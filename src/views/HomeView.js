@@ -4,6 +4,7 @@ import '../HomeView.css'
 import '../containers/ProjectCard.js'
 import ProjectCard from '../containers/ProjectCard.js'
 
+
 class HomeView extends Component {
 render() {
     return (
